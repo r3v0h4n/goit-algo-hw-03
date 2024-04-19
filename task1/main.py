@@ -10,5 +10,3 @@ def get_days_from_today(date):
     date_to = datetime.today().date()
     interval = date_to - date_from
     return interval.days
-
-print(get_days_from_today('2022-10-09'))
